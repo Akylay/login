@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+<esction class="auth">
+    <div class="row">
+        <div class="col-6 auth_bg">
+
+        </div>
+        <div class="col-6 d-flex justify-center align-center">
+            <form class="auth_form">
+                <h2 class="auth_title">Login to your account</h2>
+                <p class="auth_subtitle">Welcome back</p>
+                <label for="email" class="auth_label">Email</label>
+                <input type="email" class="auth_input auth_sizing" id="email" placeholder="John.snow@gmail.com">
+                <label for="pass" class="auth_label">Password</label>
+                <input type="password" class="auth_input auth_sizing" id="pass" placeholder="*********">
+                <div class="d-flex justify-between">
+                    <div class="auth_tick">
+                        <input type="checkbox" class="auth_check" id="check">
+                        <label for="check" class="auth_remember">Remember me</label>
+                    </div>
+                    <a href="#" class="auth_link">Forgot password?</a>
+                </div>
+                <button class="auth_login auth_sizing">Login now</button>
+                <button class="auth_signin auth_sizing ">
+                    <img src="./images/icon_Google.svg" alt="icon" class="">
+                    Or sign-in with google</button>
+            </form>
+            <span class="auth_register">Dont have an account? <a href="#" class="auth_join">Join free today </a> </span>
+        </div>
+    </div>
+</esction>
+</body>
+</html>
